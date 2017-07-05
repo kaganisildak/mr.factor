@@ -1,0 +1,20 @@
+C:\Users\kagan\AppData\Local\Temporary Projects\Mr.Factor\bin\Debug\Mr.Factor.exe.config
+C:\Users\kagan\AppData\Local\Temporary Projects\Mr.Factor\bin\Debug\Mr.Factor.exe
+C:\Users\kagan\AppData\Local\Temporary Projects\Mr.Factor\bin\Debug\Mr.Factor.pdb
+C:\Users\kagan\AppData\Local\Temporary Projects\Mr.Factor\bin\Debug\Mr.Factor.xml
+C:\Users\kagan\AppData\Local\Temporary Projects\Mr.Factor\obj\Debug\Mr.Factor.vbprojResolveAssemblyReference.cache
+C:\Users\kagan\AppData\Local\Temporary Projects\Mr.Factor\obj\Debug\Mr.Factor.Resources.resources
+C:\Users\kagan\AppData\Local\Temporary Projects\Mr.Factor\obj\Debug\Mr.Factor.vbproj.GenerateResource.Cache
+C:\Users\kagan\AppData\Local\Temporary Projects\Mr.Factor\obj\Debug\Mr.Factor.exe
+C:\Users\kagan\AppData\Local\Temporary Projects\Mr.Factor\obj\Debug\Mr.Factor.xml
+C:\Users\kagan\AppData\Local\Temporary Projects\Mr.Factor\obj\Debug\Mr.Factor.pdb
+C:\Users\kagan\Desktop\Mr.Factor\Mr.Factor\obj\Debug\Mr.Factor.vbprojResolveAssemblyReference.cache
+C:\Users\kagan\Desktop\Mr.Factor\Mr.Factor\obj\Debug\Mr.Factor.Resources.resources
+C:\Users\kagan\Desktop\Mr.Factor\Mr.Factor\obj\Debug\Mr.Factor.vbproj.GenerateResource.Cache
+C:\Users\kagan\Desktop\Mr.Factor\Mr.Factor\obj\Debug\Mr.Factor.exe
+C:\Users\kagan\Desktop\Mr.Factor\Mr.Factor\obj\Debug\Mr.Factor.xml
+C:\Users\kagan\Desktop\Mr.Factor\Mr.Factor\obj\Debug\Mr.Factor.pdb
+C:\Users\kagan\Desktop\Mr.Factor\Mr.Factor\bin\Debug\Mr.Factor.exe.config
+C:\Users\kagan\Desktop\Mr.Factor\Mr.Factor\bin\Debug\Mr.Factor.exe
+C:\Users\kagan\Desktop\Mr.Factor\Mr.Factor\bin\Debug\Mr.Factor.pdb
+C:\Users\kagan\Desktop\Mr.Factor\Mr.Factor\bin\Debug\Mr.Factor.xml
