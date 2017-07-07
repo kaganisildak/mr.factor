@@ -17,31 +17,37 @@ ___  ___    ______ ___  _____ _____ ___________
     End Sub
     Function maina()
         Dim watch As Stopwatch = Stopwatch.StartNew()
-        Console.WriteLine("Sayı giriniz : ")
-        Dim sayi As BigInteger
-        sayi = Console.ReadLine
-        watch.Start()
-        Console.WriteLine(factorit(sayi))
-        watch.Stop()
-        Console.WriteLine(watch.Elapsed.TotalMinutes & " saniyede bulundu" & vbNewLine)
-        watch.Reset()
-        maina()
+        Dim lineCount = File.ReadAllLines("target").Length
+        Dim path As String = "target"
+        Dim sr As StreamReader = New StreamReader(path)
+        For i = 0 To lineCount - 1
+            Dim tsayi As BigInteger
+            tsayi = BigInteger.Parse(sr.ReadLine())
+            watch.Start()
+            Dim veri = factorit(tsayi).ToString
+            watch.Stop()
+            My.Computer.FileSystem.WriteAllText("log", "Hedef : " & tsayi.ToString & vbCrLf & veri & watch.Elapsed.TotalMinutes & " saniyede bulundu" & vbCrLf, True)
+            watch.Reset()
+        Next
+        Console.WriteLine("İşlemler bitti")
+        Console.ReadLine()
     End Function
     Function factorit(number As BigInteger)
-        Dim lineCount = File.ReadAllLines("primes1.txt").Length
-        Dim path As String = "primes1.txt"
+        Dim lineCount = File.ReadAllLines("primes").Length
+        Dim path As String = "primes"
         Dim sr As StreamReader = New StreamReader(path)
         Dim v As BigInteger
         For i = 0 To lineCount - 1
             Dim line As String
-            v = Convert.ToInt32(sr.ReadLine())
+            v = BigInteger.Parse(sr.ReadLine())
             Dim k As BigInteger
-            k = (number / v)
-            If ((k * v) = number) = True Then
-                Return (k.ToString & " " & v.ToString)
+            k = BigInteger.Divide(number, v)
+            If (BigInteger.Multiply(k, v) = number) = True Then
+                Return ("p : " & k.ToString & vbCrLf & "q : " & v.ToString & vbCrLf)
                 i = 0
             End If
         Next
         Reset()
+
     End Function
 End Module
